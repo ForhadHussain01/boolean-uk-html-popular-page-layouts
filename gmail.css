@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+
   }
   
   .container {
@@ -26,7 +26,7 @@
   }
   
   .top-bar .logo {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   
     display: grid;
   
@@ -37,27 +37,27 @@
   }
   
   .top-bar .logo .menu-icon {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   }
   
   .top-bar .logo .gmail-logo {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   }
   
   .top-bar .search {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   
     display: grid;
     padding: 5px;
   }
   
   .top-bar .search-bar {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   }
   
 
   .top-bar .menu {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   
     display: grid;
     grid-template-columns: 35px 35px 35px 100px;
@@ -71,7 +71,7 @@
   .top-bar .menu .gear,
   .top-bar .menu .options,
   .top-bar .menu .profile {
-    /* border: 1px dashed black; */
+    border: 1px dashed black;
   }
   
   
@@ -90,28 +90,28 @@
   .left-menu .folders,
   .left-menu .meet,
   .left-menu .chat {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   }
   
   .left-menu .folders ul {
     display: grid;
-    grid-auto-rows: 30px;
+    grid-auto-rows: 40px;
     grid-gap: 5px;
     padding: 5px;
   }
   
   .left-menu .folders li {
-    /* border: 1px solid black; */
+    border: 1px solid black;
+
   
     display: grid;
-    align-items: center;
   
     grid-template-columns: 30px 1fr 20px;
     grid-gap: 5px;
   }
   
   .left-menu .folders li div {
-    /* border: 1px solid black; */
+    border: 1px solid black;
   }
   
  
