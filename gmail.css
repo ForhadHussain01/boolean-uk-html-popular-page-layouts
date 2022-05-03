@@ -13,12 +13,13 @@
       "top-bar top-bar top-bar top-bar " 50px
       "left-menu emails settings shortcuts" 1fr /
       220px 1fr 240px 40px;
+      background-color: rgb(241, 241, 241);
+      
   }
   
 
   .top-bar {
     grid-area: top-bar;
-    background-color: #ff000050;
   
     display: grid;
     grid-template-columns: 200px 1fr 280px;
@@ -77,8 +78,6 @@
   
   .left-menu {
     grid-area: left-menu;
-    background-color: #00ff0050;
-  
     display: grid;
     grid-template-rows: 50px 2fr 80px 1fr;
   
@@ -93,14 +92,16 @@
     border: 1px solid black;
   }
   
-  .left-menu .folders ul {
+  .left-menu .folders ul,
+  .left-menu .meet ul {
     display: grid;
-    grid-auto-rows: 40px;
+    grid-auto-rows: auto;
     grid-gap: 5px;
     padding: 5px;
   }
   
-  .left-menu .folders li {
+  .left-menu .folders li,
+  .left-menu .meet li {
     border: 1px solid black;
 
   
@@ -110,28 +111,27 @@
     grid-gap: 5px;
   }
   
-  .left-menu .folders li div {
-    border: 1px solid black;
-  }
-  
  
   .emails {
     grid-area: emails;
-    background-color: #0000ff50;
- 
+    border: 1px solid black;
+   
   }
   
 
   .settings {
     grid-area: settings;
-    background-color: #ff00ff50;
+    display: grid;
+    border: 1px solid black;
+  
+    
    
   }
   
 
   .shortcuts {
     grid-area: shortcuts;
-    background-color: #ffff0050;
+  
   
     writing-mode: vertical-rl;
     text-orientation: upright;
